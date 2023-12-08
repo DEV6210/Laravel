@@ -20,3 +20,8 @@ php artisan make:controller controller-name --resource
 
 # how to make components
 php artisan make:component input
+
+# how to migrate database
+php artisan migrate
+ # how to create table
+ php artisan make:migration create_users_table
