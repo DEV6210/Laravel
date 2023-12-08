@@ -21,7 +21,24 @@ php artisan make:controller controller-name --resource
 # how to make components
 php artisan make:component input
 
+
+# --------------------------------------
 # how to migrate database
 php artisan migrate
  # how to create table
  php artisan make:migration create_users_table
+
+ # delete all table and re generate
+ php artisan make:refresh
+
+ # delete all table and re generate
+ php artisan make:rollback
+
+# Add column
+ php artisan make:migration add_colName_to_tableName_table
+after define column-> # php artisan migrate 
+
+
+# --------------------------------------
+# how to create model
+ php artisan make:model databasename
