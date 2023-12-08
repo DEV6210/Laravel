@@ -17,3 +17,6 @@ php artisan make:controller controller-name --resource
 
 # Action Handle by resource controller
 ![Screenshot (41)](https://github.com/DEV6210/Laravel/assets/91625966/ab605486-7027-4036-baab-0718e3b56f16)
+
+# how to make components
+php artisan make:component input
